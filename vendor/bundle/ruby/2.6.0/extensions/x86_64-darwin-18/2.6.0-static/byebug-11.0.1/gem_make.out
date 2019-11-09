@@ -1,0 +1,19 @@
+current directory: /Users/hata_k/environment/hata_app/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+/Users/hata_k/.rbenv/versions/2.6.0/bin/ruby -I /Users/hata_k/.rbenv/versions/2.6.0/lib/ruby/2.6.0 -r ./siteconf20191108-10519-yd54r1.rb extconf.rb
+creating Makefile
+
+current directory: /Users/hata_k/environment/hata_app/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/hata_k/environment/hata_app/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/hata_k/environment/hata_app/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20191108-10519-p7t6i7/byebug
