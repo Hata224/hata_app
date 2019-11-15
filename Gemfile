@@ -13,11 +13,10 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
-gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'rspec-rails', '~> 3.6.0'
+  gem 'rspec-rails', '~> 3.7.2'
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
   gem 'spring-commands-rspec'
@@ -39,3 +38,8 @@ group :test do
   gem 'launchy'
 end
 
+
+
+gem 'bootsnap', '>= 1.1.0', require: false
+gem 'carrierwave'
+gem 'rmagick'
