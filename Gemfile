@@ -43,3 +43,4 @@ end
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'carrierwave'
 gem 'rmagick'
+gem 'jquery-rails'
