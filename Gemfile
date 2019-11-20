@@ -34,7 +34,6 @@ group :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
-  gem 'faker'
   gem 'database_cleaner'
   gem 'launchy'
 end
@@ -45,3 +44,5 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'carrierwave'
 gem 'rmagick'
 gem 'jquery-rails'
+gem 'devise'
+gem 'omniauth-twitter'
