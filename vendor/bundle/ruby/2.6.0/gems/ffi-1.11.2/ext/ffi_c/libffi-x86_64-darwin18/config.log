@@ -30,13 +30,13 @@ Kernel configured for up to 8 processors.
 Processor type: x86_64h (Intel x86-64h Haswell)
 Processors active: 0 1 2 3 4 5 6 7
 Primary memory available: 8.00 gigabytes
-Default processor set: 372 tasks, 1803 threads, 8 processors
-Load average: 3.30, Mach factor: 4.69
+Default processor set: 338 tasks, 1382 threads, 8 processors
+Load average: 3.63, Mach factor: 4.41
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
-PATH: /Users/hata_k/.rbenv/versions/2.6.0/bin
+PATH: /Users/hata_k/.rbenv/versions/2.6.1/bin
 PATH: /usr/local/Cellar/rbenv/1.1.2/libexec
 PATH: /usr/local/opt/imagemagick@6/bin
 PATH: /usr/local/opt/mysql@5.7/bin
