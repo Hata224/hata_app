@@ -299,4 +299,12 @@ Devise.setup do |config|
 
   #メールアドレスの設定
   config.mailer_sender = "メールアドレス"
+
+  #アカウントロックの設定
+  config.unlock_strategy = :email
+  config.maximum_attempts = 4
+  config.unlock_in = 5.minutes
+
+  #タイムアウトの設定
+  config.timeout_in = 10.minutes
 end
